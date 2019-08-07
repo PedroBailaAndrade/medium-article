@@ -1,0 +1,60 @@
+body {
+  background-color: #ECDBDB;
+  font-family: "Courgette", cursive;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/900x500);
+  color: white;
+  background-size: cover;
+  padding: 140px 0;
+}
+
+.container {
+  width: 700px;
+  margin: 60px auto;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+}
+
+p {
+  font-style: italic;
+  font-size: 15px;
+}
+
+h2 {
+  font-size: 39px;
+  color: #916D6D;
+}
+
+a {
+  background-color: white;
+  color: #916D6D;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: red;
+}
+
+@media (max-width: 960px) {
+  .all {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .all {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .all {
+    width: 300px;
+  }
+}
